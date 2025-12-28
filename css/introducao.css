@@ -1,0 +1,31 @@
+.introducao img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6.5rem;
+  margin: 100px 150px;
+  position: relative;
+}
+.detalhe {
+  position: absolute;
+  width: 130px;
+  left: 430px;
+  bottom: 130px;
+  z-index: -1;
+}
+.introducao p {
+  font-size: 4.5rem;
+  font-weight: bold;
+  align-self: center;
+  max-width: 12ch;
+}
+.introducao span {
+  font-size: 1.5rem;
+  font-weight: normal;
+  grid-column: 2;
+  color: #555;
+}

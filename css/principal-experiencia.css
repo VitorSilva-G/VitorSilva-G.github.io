@@ -1,0 +1,84 @@
+
+.principalh1 {
+  color: #ddd;
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  margin: 50px 150px;
+  gap: 4rem;
+}
+
+.experienciap {
+  font-size: 1.5rem;
+  max-width: 39ch;
+  color: #555;
+  grid-column: 2;
+}
+.experienciap span {
+  color: black;
+  font-weight: bold;
+}
+.secaoexp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  background-color: #ddd;
+  padding: 1.5rem;
+}
+.secao {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  position: relative;
+  grid-column: 2;
+  margin-top: 100px;
+}
+
+.secao p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.secao h2 {
+  font-size: 1.3rem;
+}
+.secao ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+  align-content: start;
+}
+.secao ul li {
+  background-color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+.alinhar span {
+  position: absolute;
+  left: -90px;
+}
+.alinhar2 span {
+  position: absolute;
+  left: -70px;
+}
+.alinhar h2::after {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-color: green;
+  position: absolute;
+  left: -4px;
+}
+.alinhar2 h2::after {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-color: green;
+  position: absolute;
+  left: -4px;
+}

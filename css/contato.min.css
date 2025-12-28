@@ -1,0 +1,1 @@
+.contato{display:grid;grid-template-columns:1fr 1fr;gap:3rem;background-color:#000;color:#fff;padding:100px 150px 50px 150px;position:relative}.contato img{position:absolute;top:-60px;left:150px}.p1{font-size:1.5rem;color:#ddd;max-width:40ch;padding-top:70px}.p2{font-size:2rem;font-weight:700;line-height:1.1}footer{padding-top:50px;align-self:end}

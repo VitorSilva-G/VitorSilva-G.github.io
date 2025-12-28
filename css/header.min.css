@@ -1,0 +1,1 @@
+.cabecalho img{max-width:100%;height:auto;display:block}.cabecalho{display:grid;grid-template-columns:1fr 1fr;justify-content:space-between;margin:50px 150px 0 150px;max-width:1200px}.cabecalho ul a{text-decoration:none;color:#000}.cabecalho ul{list-style:none;display:flex;font-size:1.25rem;gap:3rem;justify-content:right;margin-top:1rem}
