@@ -87,7 +87,7 @@
   text-transform: uppercase;
   justify-self: start;
 }
-.intensivos li:first-child:before{
+.intensivos li:first-child:before {
   content: "";
   width: 25px;
   height: 25px;
@@ -103,18 +103,17 @@
 }
 .idiomas li {
   margin-bottom: 1rem;
-    color: #fff;
+  color: #fff;
 }
 .idiomas li:first-child {
   margin-bottom: 2rem;
   text-transform: uppercase;
-    color: #999;
+  color: var(--corteste);
 }
-.idiomas li span{
-    color: #999;
-
+.idiomas li span {
+  color: var(--corteste);
 }
-.idiomas li:first-child:before{
+.idiomas li:first-child:before {
   content: "";
   width: 25px;
   height: 25px;
