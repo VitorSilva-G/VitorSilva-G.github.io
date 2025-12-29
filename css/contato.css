@@ -1,3 +1,15 @@
+:root {
+  --font1: 5rem;
+  --fundoescuro: rgba(0, 0, 0, 0.934);
+  --preto1: #000;
+  --preto2: #222;
+  --preto3: #333;
+  --cinza1: #fff;
+  --cinza2: #ddd;  
+  --cinza3: #555;  
+  --corteste: rgb(255, 0, 0);
+}
+
 .contato {
   display: grid;
   grid-template-columns: 1fr 1fr;
